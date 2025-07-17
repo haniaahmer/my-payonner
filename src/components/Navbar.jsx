@@ -29,7 +29,7 @@ const Navbar = () => {
   ];
 
  const renderDropdown = (links) => (
-  <ul className="absolute top-full left-0 mt-2 bg-white shadow-lg space-y-2 p-2 rounded min-w-[180px] z-50">
+  <ul className="absolute  top-full left-0 mt-2 bg-white shadow-lg space-y-2 p-2 rounded min-w-[180px] z-50">
     {links.map((link) => (
       <li key={link.name}>
         <a
@@ -49,7 +49,7 @@ const Navbar = () => {
 
 
   return (
-    <header className="bg-white text-black py-4 flex justify-between items-center px-4 lg:px-40 shadow-sm font-bold relative">
+    <header className="bg-white text-black py-4 flex justify-between items-center px-4 lg:px-40  md:px-40 shadow-sm font-bold relative sticky top-0 z-50">
       <img 
         src="https://www.payoneer.com/wp-content/themes/payo/assets/img/payoneer-dark-logo.svg" 
         width="162" 

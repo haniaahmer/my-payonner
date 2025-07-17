@@ -4,7 +4,7 @@ import CTASection from "./components/CTASection";
 import Footer from "./components/Footer";
 import TopHeader from "./components/TopHeader";
 import Introduction from "./components/Introduction";
-import Tab from "./components/Tab";
+import Tab from "./components/TAB/Tab";
 import Global from "./components/Global";
 import FeesSection from "./components/FeesSection";
 import BusinessNetworkExpansion from "./components/BusinessNetworkExpansion";
